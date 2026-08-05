@@ -21,6 +21,8 @@ if card == "1234"and pin == "9999":
         print("limit excedss")
 else:
     print("invalid")
+
+    
 # job apllication 
 age = int(input("enter age :"))
 exp = int(input("enter exp :"))
