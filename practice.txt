@@ -1,0 +1,4 @@
+hi every one
+we are learning filei/o
+using jave
+ i like programming inpython
