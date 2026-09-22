@@ -11,7 +11,7 @@ class student(person):
 class teacher(person):
     pass
 
-s1 = student("loki","a")
+s1 = student("loki ","  a")
 
 t1= teacher("sai")
 print(t1.name)
