@@ -10,3 +10,5 @@ df=pd.DataFrame(data)
 print(df)
 print(df[(df["Marks"] > 80) & (df["Age"] < 20)])
 
+
+
