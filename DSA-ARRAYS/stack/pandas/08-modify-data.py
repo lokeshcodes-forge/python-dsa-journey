@@ -13,7 +13,11 @@ df["city"]=["delhi","mumbai","hyderabad","atp"]
 df.loc[2,"age"]=25
 df.loc[1,"name"]="lokii"
 df.loc[1,"city"]="atp"
-df.rename(columns={"marks":"score"})
+df.rename(columns={"marks":"score"},
+          inplace=True)
+df.drop(columns=["city"])
+
+
 
 
 print(df)
