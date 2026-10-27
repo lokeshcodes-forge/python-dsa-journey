@@ -24,3 +24,26 @@ plt.grid(True)
 plt.legend()
 
 plt.show()
+
+
+
+months = ["Jan", "Feb", "Mar", "Apr", "May"]
+sales = [20, 35, 30, 45, 50]
+
+plt.plot(
+    months,
+    sales,
+    color="red",
+    linewidth=3,
+    linestyle="--",
+    marker="o",
+    label="Sales"
+)
+
+plt.title("Monthly Sales")
+plt.xlabel("Months")
+plt.ylabel("Sales")
+plt.grid(True)
+plt.legend()
+
+plt.show()
