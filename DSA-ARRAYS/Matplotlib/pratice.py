@@ -7,7 +7,7 @@ plt.figure(figsize=(12,8))
 
 # 1. Bar Chart
 plt.subplot(2,2,1)
-plt.bar(students, marks, color="skyblue")
+bars=plt.bar(students, marks, color="skyblue")
 plt.title("Bar Chart")
 
 # 2. Pie Chart
@@ -26,5 +26,7 @@ plt.scatter(students, marks, color="red", s=100)
 plt.title("Scatter Plot")
 
 plt.tight_layout()
+
+    
 
 plt.show()
