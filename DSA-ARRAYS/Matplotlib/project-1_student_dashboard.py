@@ -1,6 +1,7 @@
-
 import pandas as pd
 
 
-df = pd.read_csv("students.csv")
-print(df)
+import os
+print(os.getcwd())
+print(os.listdir())
+df = pd.read_csv("DSA-ARRAYS/Matplotlib/students.csv")
